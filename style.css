@@ -1,9 +1,13 @@
 
 *{
   background-color: var(--black);
-  font-family: fantasy;
+  font-family:Arial, Helvetica, sans-serif;
   margin:0;
   padding:0;
+  -webkit-user-select: none;        
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none; 
 }
 :root {
   --black: #0B0C10;
@@ -35,7 +39,7 @@
   justify-content: space-around;
   background-color: var(--darkgrey ); 
   overflow: hidden;
-  box-shadow: 0px 0px 25px 25px rgb(138, 138, 123);
+  box-shadow: 0px 0px 25px 25px var(--darkgrey);
 }
 
 .navbar ul {
@@ -100,15 +104,17 @@
   line-height: 110px;
   float:right;
   background-color: transparent;
+  opacity: 0.9;
 }
 
 .left_col {
   float:left;
   margin-left: 6%;
-  margin-top: 120px;
+  margin-top: 250px;
   display: flex;
   align-items: center;
   background-color: transparent;
+  min-height: 120px;
 }
 
 .left_col p {
@@ -120,8 +126,38 @@
 }
 
 #icon1 {
-  width: 100px;
+  width: 80px;
   cursor: pointer;
   background-color: transparent;
   padding-left: 10px;
+}
+
+#icon1:hover {
+  width: 100px;
+}
+
+.low_container {
+  position: fixed;
+  margin-top: 40%;
+  margin-left: 6%;
+  max-width: 400px;
+  background-color: transparent;
+}
+
+.low_container p {
+  color: var(--lightgrey);
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.lc_logo {
+  background-color: transparent;
+  margin-top:80%;
+  margin-left: 15%;
+}
+
+.lc_logo img{
+  width: 300px;
+  background-color: transparent;
+  opacity: 0.7;
 }
