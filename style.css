@@ -112,6 +112,7 @@
   align-items: center;
   background-color: transparent;
   max-width: 75%;
+  min-width: 45%;
 }
 
 .left_col p {
