@@ -13,7 +13,7 @@ window.onload = function () {
       document.getElementById("eq").style.display = "inline-block";
     } else {
       track1.pause();
-      track1_icon.src = "public/images/play.png";
+      track1_icon.src = "public/images/Play.png";
       document.getElementById("eq").style.display = "none";
     };
   };
