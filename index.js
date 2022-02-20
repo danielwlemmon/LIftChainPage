@@ -4,9 +4,7 @@ window.onload = function () {
   const track1_icon = document.getElementById("icon1");
 
 
-  console.log("window loaded");
-  track1_icon.onclick = function () {
-    console.log("click registered");
+  track1_icon.addEventListener("click", function () {
     if (track1.paused) {
       track1.play();
       track1_icon.src = "public/images/pause.png";
@@ -16,5 +14,7 @@ window.onload = function () {
       track1_icon.src = "public/images/Play.png"; //force update
       document.getElementById("eq").style.display = "none";
     };
-  };
+  });
+
+  
 };
