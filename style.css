@@ -61,7 +61,7 @@
 }
 
 .navbar ul li a img {
-  height: 60px;
+  height: 40px;
   background-color: var(--darkgrey);
 }
 
@@ -93,12 +93,13 @@
   width: 100%;
   position: absolute;
   top: 30%;
+  max-width: 400px;
 }
 
 .left_col h1 {
-  font-size: 90px;
+  font-size: 65px;
   color: var(--lightgrey);
-  line-height: 110px;
+  line-height: 100px;
   float:left;
   background-color: transparent;
   opacity: 0.9;
@@ -107,26 +108,26 @@
 .left_col {
   float:left;
   margin-left: 6%;
-  margin-top: 100px;
+  margin-top: 10%;
   align-items: center;
   background-color: transparent;
   min-height: 120px;
 }
 
 .left_col p {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--lightgrey);
   font-weight: 400;
   margin-left: 15px;
   background-color: transparent;
 }
 #eq {
-  height: 80px;
+  height: 60px;
   background-color: transparent;
   padding-top: 10px;
 }
 #icon1 {
-  width: 80px;
+  width: 60px;
   cursor: pointer;
   background-color: transparent;
   padding-left: 10px;
@@ -139,19 +140,15 @@
   opacity: 1;
 }
 
-.low_container {
+#bio {
   position: relative;
-  margin-top: 30%;
-  margin-left: 6%;
-  max-width: 400px;
+  padding-top: 10px;
+  font-size: 18px;
   background-color: transparent;
+  max-width: 400px;
 }
 
-.low_container p {
-  color: var(--lightgrey);
-  font-size: 20px;
-  background-color: transparent;
-}
+
 
 .lc_logo {
   background-color: transparent;
