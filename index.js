@@ -2,7 +2,9 @@ const track1 = document.getElementById("1");
 const track1_icon = document.getElementById("icon1");
 
 window.onload = function () {
+  console.log("window loaded");
   track1_icon.onclick = function () {
+    console.log("click registered");
     if (track1.paused) {
       track1.play();
       track1_icon.src = "/public/images/pause.png";
