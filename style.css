@@ -1,0 +1,127 @@
+
+*{
+  background-color: var(--black);
+  font-family: fantasy;
+  margin:0;
+  padding:0;
+}
+:root {
+  --black: #0B0C10;
+  --darkgrey: #1F2833;
+  --lightgrey: #C5C6C7;
+  --lightcolor: #66FCF1;
+  --darkcolor: #45A29E;
+}
+
+
+.container {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/public/images/side_place.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.navbar {
+  width:100%;
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--darkgrey ); 
+  overflow: hidden;
+  box-shadow: 0px 0px 25px 25px rgb(138, 138, 123);
+}
+
+.navbar ul {
+
+  background-color: var(--darkgrey);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  background-color: var(--darkgrey);
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 15px;
+
+  background-color: var(--darkgrey);
+}
+
+.navbar ul li a img {
+  height: 60px;
+
+  background-color: var(--darkgrey);
+}
+
+#fb:hover{
+  transform: rotate(20deg);
+}
+
+#ig:hover{
+  transform: rotate(20deg);
+}
+
+#bp:hover{
+  transform: rotate(20deg);
+}
+
+#sp:hover{
+  transform: rotate(20deg);
+}
+
+#sc:hover{
+  transform: rotate(20deg);
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+
+.right_col {
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.right_col h1 {
+  font-size: 90px;
+  color: var(--lightgrey);
+  line-height: 110px;
+  float:right;
+  background-color: transparent;
+}
+
+.left_col {
+  float:left;
+  margin-left: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.left_col p {
+  font-size: 40px;
+  color: var(--lightgrey);
+  font-weight: 400;
+  margin-left: 15px;
+  background-color: transparent;
+}
+
+#icon1 {
+  width: 100px;
+  cursor: pointer;
+  background-color: transparent;
+  padding-left: 10px;
+}
