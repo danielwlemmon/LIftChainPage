@@ -111,7 +111,7 @@
   margin-top: 10%;
   align-items: center;
   background-color: transparent;
-  min-height: 120px;
+  max-width: 60%;
 }
 
 .left_col p {
@@ -142,10 +142,10 @@
 
 #bio {
   position: relative;
-  padding-top: 10px;
+  padding-top: 30px;
   font-size: 18px;
   background-color: transparent;
-  max-width: 400px;
+  max-width: 60%;
 }
 
 
