@@ -33,7 +33,7 @@ html {
 
 .navbar {
   width:100%;
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -43,23 +43,25 @@ html {
 }
 
 .navbar ul {
-  background-color: var(--darkgrey);
+  background-color: transparent;
 }
 
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0;
   background-color: var(--darkgrey);
+  background: transparent;
+  height: 60px;
+  width: auto;
 }
 
 .navbar ul li a{
-  text-decoration: none;
-  font-size: 15px;
   background-color: var(--darkgrey);
 }
 
 .navbar ul li a img {
+  padding: 4px;
   height: 40px;
   background-color: var(--darkgrey);
 }
@@ -112,7 +114,7 @@ html {
 }
 
 #icon1:hover {
-  padding-left: 5%;
+  padding-left: 6%;
   opacity: 1;
 }
 
