@@ -5,52 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LiftChainMusic</title>
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
+    <img src="images/half-me.png" alt="half_me_photo" id="half_me">
     <div class="navbar">
       <ul>
-        <li><a href="https://www.facebook.com/LiftChainMusic/"><img src="public/images/fb.png" id="fb"></a></li>
-        <li><a href="https://www.instagram.com/liftchainmusic/"><img src="public/images/insta.png" id="ig"></a></li>
-        <li><a href="https://liftchain.bandcamp.com"><img src="public/images/bc.png" id="bc"></a></li>
-        <li><a href="https://www.beatport.com/artist/liftchain/842093"><img src="public/images/bp.png" id="bp"></a></li>
-        <li><a href="https://open.spotify.com/artist/1dP9He24MPdcwjVc0jCNco"><img src="public/images/spotify.png" id="sp"></a></li>
-        <li><a href="https://soundcloud.com/liftchain-music"><img src="public/images/sc.png" id="sc"></a></li>
+        <li><a href="https://www.facebook.com/LiftChainMusic/"><img src="images/fb.png" id="fb"></a></li>
+        <li><a href="https://www.instagram.com/liftchainmusic/"><img src="images/insta.png" id="ig"></a></li>
+        <li><a href="https://liftchain.bandcamp.com"><img src="images/bc.png" id="bc"></a></li>
+        <li><a href="https://www.beatport.com/artist/liftchain/842093"><img src="images/bp.png" id="bp"></a></li>
+        <li><a href="https://open.spotify.com/artist/1dP9He24MPdcwjVc0jCNco"><img src="images/spotify.png" id="sp"></a>
+        </li>
+        <li><a href="https://soundcloud.com/liftchain-music"><img src="images/sc.png" id="sc"></a></li>
       </ul>
     </div>
     <div clas="content">
-      <div class="left_col">
-        <h1>LiftChain</h1>
-        <p>Follow <br>The Sound...</p>
-        <img src="public/images/Play.png" id="icon1">
-        <img src="public/images/eq.gif" hidden id="eq">
-        <p id="bio">LiftChain produces melodic trance, 
-          progressive, and other styles of electronic music.  
-          His releases on 
-          <a href="https://premierleague.bandcamp.com/">Premier League Recordings</a> and 
-          <a href="https://journeydeep.net/">JourneyDeep Records</a>
-          have attracted attention from top DJ’s.  His 2020 ‘Metamorphosis’ 
-          track earned two plays on Paul Van Dyk’s VONYC Session (#720 & #722), 
-          and Jes’ UTB #403.  LiftChain continues to evolve with his latest 
-          vocal release ‘Dream Aloud’, a powerfully emotional track.  
-          LiftChain (aka Daniel Lemmon) lives in the Denver area of Colorado, 
-          USA where he has lived most of his life.  He can’t wait to share 
-          more music with all of you.  Thank you for stopping by...
-        </p>
-        <div class="lc_logo">
-          <img src="public/images/LiftChain_logo_white.png">
-        </div>
+
+      <div class="lc_logo">
+        <img src="images/LiftChain_logo_white.png">
       </div>
+      <div id="audio_player">
+        <p>Follow The Sound...</p>
+        <img src="images/Play.png" id="icon1">
+        <img src="images/eq.gif" hidden id="eq">
+      </div>
+      <p id="bio">LiftChain produces melodic trance,
+        progressive, and other styles of electronic music.
+        His releases on
+        <a class="text_link" href="https://premierleague.bandcamp.com/">Premier League Recordings</a> and
+        <a class="text_link" href="https://journeydeep.net/">JourneyDeep Records</a>
+        have attracted attention from top DJ’s. <br><br>His 2020 ‘Metamorphosis’
+        track earned two plays on Paul Van Dyk’s VONYC Session (#720 & #722),
+        and Jes’ UTB #403. LiftChain continues to evolve with his latest
+        vocal release ‘Dream Aloud’, a powerfully emotional track.
+        <br><br>LiftChain (aka Daniel Lemmon) lives in the Denver area of Colorado,
+        USA where he has lived most of his life. He can’t wait to share
+        more music with all of you. Thank you for stopping by...
+      </p>
+
     </div>
     <audio id="1">
-      <source src="public/audio/LiftChain_Samples.mp3" type="audio/mp3">
+      <source src="audio/LiftChain_Samples.mp3" type="audio/mp3">
     </audio>
-    
-    
+  </div>
 </body>
-
 <script src="index.js"></script>
+
 </html>

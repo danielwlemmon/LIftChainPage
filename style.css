@@ -1,48 +1,48 @@
+:root {
+  --black: #0B0C10;
+  --darkgrey: #1F2833;
+  --lightgrey: #C5C6C7;
+}
 
-*{
-  background-color: var(--black);
+* {
   font-family:Arial, Helvetica, sans-serif;
   margin:0;
   padding:0;
   -webkit-user-select: none;        
   -moz-user-select: none;
   -ms-user-select: none; 
-  user-select: none; 
-}
-:root {
-  --black: #0B0C10;
-  --darkgrey: #1F2833;
-  --lightgrey: #C5C6C7;
-  --lightcolor: #66FCF1;
-  --darkcolor: #45A29E;
+  user-select: none;
+  overflow: hidden; 
 }
 
-
-.container {
-  margin:0;
-  padding:0;
-  height: 100vh;
-  width: 100%;
-  background-image: url(public/images/side_place.jpg);
+html {
+  background: url('images/milky-way.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  position: relative;
-  
+}
+
+#half_me {
+  position: fixed;
+  right:0;
+  bottom: 0;
+  height:80%;
+  width: auto;
 }
 
 .navbar {
   width:100%;
-  padding: 15px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: var(--darkgrey ); 
-  overflow: hidden;
+  overflow:hidden;
   box-shadow: 0px 0px 25px 25px var(--darkgrey);
 }
 
 .navbar ul {
-
   background-color: var(--darkgrey);
 }
 
@@ -56,7 +56,6 @@
 .navbar ul li a{
   text-decoration: none;
   font-size: 15px;
-
   background-color: var(--darkgrey);
 }
 
@@ -65,61 +64,37 @@
   background-color: var(--darkgrey);
 }
 
-#fb:hover{
-  transform: rotate(20deg);
-}
-
-#ig:hover{
-  transform: rotate(20deg);
-}
-
-#bp:hover{
-  transform: rotate(20deg);
-}
-
-#sp:hover{
-  transform: rotate(20deg);
-}
-
-#sc:hover{
-  transform: rotate(20deg);
-}
-
-#bc:hover{
+#fb:hover, #ig:hover ,#bp:hover, #sp:hover, #sc:hover, #bc:hover {
   transform: rotate(20deg);
 }
 
 .content{
   width: 100%;
   position: absolute;
-  top: 30%;
+  max-width: 75%;
+}
+
+.lc_logo {
+  position: relative;
+  padding-top:5%;
+  left: 5%;
+  background-color: transparent;
+}
+
+.lc_logo img{
+  width: 40%;
+  height: auto;
+  background-color: transparent;
+  opacity: 0.7;
   max-width: 400px;
 }
 
-.left_col h1 {
-  font-size: 65px;
-  color: var(--lightgrey);
-  line-height: 100px;
-  float:left;
-  background-color: transparent;
-  opacity: 0.9;
-}
-
-.left_col {
-  float:left;
-  margin-left: 6%;
-  margin-top: 10%;
-  align-items: center;
-  background-color: transparent;
-  max-width: 75%;
-  min-width: 45%;
-}
-
-.left_col p {
-  font-size: 18px;
+.container p {
+  display: inline-block;
+  font-size: 25px;
   color: var(--lightgrey);
   font-weight: 400;
-  margin-left: 15px;
+  margin-left: 5%;
   background-color: transparent;
 }
 #eq {
@@ -131,13 +106,13 @@
   width: 60px;
   cursor: pointer;
   background-color: transparent;
-  padding-left: 10px;
+  padding-left: 5%;
   opacity: 0.8;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #icon1:hover {
-  padding-left: 20px;
+  padding-left: 5%;
   opacity: 1;
 }
 
@@ -145,20 +120,14 @@
   position: relative;
   padding-top: 30px;
   font-size: 18px;
+  font-weight: lighter;
   background-color: transparent;
-  max-width: 75%;
+  max-width: 70%;
 }
 
-
-
-.lc_logo {
-  background-color: transparent;
-  
-  margin-left: 15%;
+.text_link {
+  color: rgb(67, 145, 155);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.lc_logo img{
-  width: 300px;
-  background-color: transparent;
-  opacity: 0.7;
-}

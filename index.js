@@ -6,11 +6,11 @@ window.onload = function () {
   track1_icon.addEventListener("click", function () {
     if (track1.paused) {
       track1.play();
-      track1_icon.src = "public/images/pause.png";
+      track1_icon.src = "images/pause.png";
       document.getElementById("eq").style.display = "inline-block";
     } else {
       track1.pause();
-      track1_icon.src = "public/images/Play.png";
+      track1_icon.src = "images/Play.png";
       document.getElementById("eq").style.display = "none";
     };
   });
